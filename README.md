@@ -1,12 +1,28 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo simples de busca e gerenciamento de filmes utilizando a API do TMDb.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Buscar filmes por nome.
+- Visualizar detalhes de cada filme, incluindo sinopse, avaliação e elenco.
+- Adicionar e remover filmes dos favoritos.
+- Navegar entre Home, Detalhes e Favoritos mantendo o estado da pesquisa.
+- Paginação de resultados.
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (JSX)
+- Context API para gerenciamento de favoritos
+- Fetch API para consumo de dados do TMDb
+- CSS moderno para layout responsivo e estilização
+
+## Observações
+
+O aplicativo salva a busca e os favoritos no localStorage para manter o estado mesmo após navegação entre páginas.
+
+Design responsivo e interface intuitiva.
+
+## Feito por:
+
+Eduardo Machado Hernandez
